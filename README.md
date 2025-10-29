@@ -11,33 +11,20 @@ To explore and apply HTML and CSS concepts by creating an interactive, visually 
 🛠️ Technologies Used
 
 HTML5 – for webpage structure
-
 CSS3 – for styling and layout
-
 VS Code – as the development environment
-
 Live Server – for live preview during development
-
 GitHub Pages – for hosting the website online
 
 👥 Team Members
-
 Aditya Markad
-
 Bhairavi Bhambare
-
 Shreyas Arote
-
 Rudra Bagul
-
 Ishwari Kalokhe
 
 🎯 Features
-
 Individual pages for each web series (Money Heist, Mirzapur, Game of Thrones, Kota Factory,  Minimalism Documentary, etc.)
-
 Homepage connecting all series with quick navigation
-
 Trailer buttons linking to YouTube or Netflix
-
 Minimalist and aesthetic design
