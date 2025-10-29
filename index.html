@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Series Hub</title>
+    <style>
+        h1 {
+            color: red;
+            font-size: 7ch;
+        }
+
+        .background {
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9ba9f0e2-b246-47f4-bd1f-3e84c23a5db8/web/IN-en-20251020-TRIFECTA-perspective_d6da84e9-6145-4b1e-bb51-e402c966a045_large.jpg");
+            width: 100%;
+            height: 400px;
+            filter: blur(5px);
+            position: absolute;
+        }
+
+        .text {
+            position: relative;
+            margin-bottom: 130px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 5ch;
+            color: white;
+        }
+
+        .text p {
+            color: white;
+            font-size: 4ch;
+            text-align: center;
+        }
+
+        .series-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            color: black;
+            margin-bottom: 0px;
+        }
+
+        .card p {
+            color: black;
+        }
+
+        .about {
+            width: 100%;
+            height: 300px;
+            background-color: whitesmoke;
+            color: black;
+            text-align: center;
+            box-sizing: border-box;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        footer {
+            background-color: whitesmoke;
+            color: brown;
+            text-align: center;
+            margin-top: 20px;
+            height: 30px;
+            font-size: 2ch;
+            line-height: 30px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Web Series Hub</h1>
+    <div class="background"></div>
+
+    <div class="text">
+        <h2>Discover Your Next Binge-Worthy series </h2>
+        <p>Explore curated web series from around the world. Watch trailers, discover cast, and start streaming today.
+        </p>
+        <p>Popcorn ready? Let the binge begin!🍿</p>
+
+    </div>
+    <div class="button" style="display:flex;
+    justify-content: center;">
+        <button style="background-color:red;
+     color:white; 
+     border: 2px solid black;
+     width: 150px;
+     height:40px; 
+     font-weight: bolder; 
+     text-align: center; 
+     font-family: 'Times New Roman', Times, serif;
+     font-size: larger;
+     position: relative"> Explore Series</button>
+    </div>
+    <div class="web-series">
+        <p style="font-size:5ch;
+         color:black;
+         margin-top: 100px;
+         margin-bottom: 3px;
+         ">Our Collection!</p>
+        <p style="font-size: 4ch; color:black;
+         margin-top: 3px;">Handpicked series spanning multiple genres and cultures</p>
+
+    </div>
+    <div class="series-container">
+        <div class="card">
+            <a href="http://127.0.0.1:5500/ADP%20project.html"><img
+                    src="https://www.tallengestore.com/cdn/shop/products/MoneyHeist4-NetflixTVShowPoster_80389d94-9ea6-4c1b-b301-61d8450d12e6.jpg?v=1589268596"
+                    alt="Money Heist"> </a>
+            <h2>Money Heist</h2>
+            <p>Crime, Drama, Thriller</p>
+        </div>
+
+        <div class="card">
+            <a href="Mirzapur.html"><img
+                    src="https://rukminim2.flixcart.com/image/480/480/l0h1g280/poster/1/m/t/small-mirzapur-web-series-poster-multicolor-photopaper-print-12-original-imagc95bfufzrhw8.jpeg?q=90"
+                    alt="Mirzapur">
+            </a>
+            <h2>Mirzapur</h2>
+            <p>Action, Crime, Drama</p>
+        </div>
+
+        <div class="card">
+            <a href="KotaFactory.html"><img
+                    src="https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/11/thumb/featurecrop/1200X900/1718091624-6196.jpg"
+                    alt="Kota Factory"> </a>
+            <h2>Kota Factory</h2>
+            <p>Comedy, Drama</p>
+        </div>
+        <div class="card">
+            <a href="GoT.html"> <img
+                    src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                    alt="Game Of Thrones">
+            </a>
+            <h2>Game Of Thrones</h2>
+            <p>Action, Adventure, Drama</p>
+        </div>
+        <div class="card">
+            <a href="Minimalism.html"><img
+                    src="https://m.media-amazon.com/images/M/MV5BZWQ1ZDljNDAtYWI4ZC00NWVkLTgwOTctZmM4MDc5MDJiMjU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                    alt="Minimalism">
+            </a>
+            <h2>Minimalism</h2>
+            <p>Lifestyle</p>
+        </div>
+    </div>
+    <div class="about">
+        <p style="font-size:5ch">About This project</p>
+        <p style="font-size:4ch; ">This is a college project showcasing premium web series from around the world. Each
+            series page features detailed information, cast lists, trailers, and streaming links. Explore diverse
+            storytelling from crime dramas to fantasy epics.</p>
+        <p style="font-size:3ch">created with passion for great storytelling</p>
+
+    </div>
+
+</body>
+<footer>
+    &copy;2025 Web Series Hub.All Rights Reserved
+</footer>
+
+
+</html>
