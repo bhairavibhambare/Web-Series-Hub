@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('https://images.bauerhosting.com/legacy/media/5dc2/ee88/8e9e/58b3/6d8d/257f/IronDragonThrone.jpeg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  position: relative;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: 64px;
+  font-family: 'Trajan Pro', serif;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #e0e0e0;
+}
+
+.info {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ccc;
+}
+
+.highlight {
+  color: gold;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.watch {
+  background-color: gold;
+  color: #000;
+}
+
+.watch:hover {
+  background-color: #d4af37;
+}
+
+.more-info {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.more-info:hover {
+  background: #fff;
+  color: #000;
+}
